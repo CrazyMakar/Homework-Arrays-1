@@ -12,21 +12,21 @@ public class Main {
         System.out.println();
         System.out.println("Задание №2");
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+            System.out.print(array[i]);
             if (i < array.length - 1) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < dArray.length; i++) {
-            System.out.print(dArray[i] + " ");
+            System.out.print(dArray[i]);
             if (i < dArray.length - 1) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < bArray.length; i++) {
-            System.out.print(bArray[i] + " ");
+            System.out.print(bArray[i]);
             if (i < bArray.length - 1) {
                 System.out.print(", ");
             }
@@ -36,21 +36,21 @@ public class Main {
         System.out.println("Задание №3");
 
         for (int i = array.length - 1; i >= 0; i--) {
-            System.out.print(array[i] + " ");
+            System.out.print(array[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = dArray.length - 1; i >= 0; i--) {
-            System.out.print(dArray[i] + " ");
+            System.out.print(dArray[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = bArray.length - 1; i >= 0; i--) {
-            System.out.print(bArray[i] + " ");
+            System.out.print(bArray[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
